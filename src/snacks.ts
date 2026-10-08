@@ -1,4 +1,4 @@
-export const snacks = ["Lolipop", "Gummies", "Chicken"];
+export const snacks = ["Lolipop"];
 
 export function printSnacks(): void {
   for (const snack of snacks) {
