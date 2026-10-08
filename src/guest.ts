@@ -1,8 +1,8 @@
-const snacks: string[] = ["Drake", "Tom", "Nev", "George Clooney"];
+export const guests: string[] = ["Drake", "Tom", "Nev", "George Clooney"];
 
 export function printSnacks(): void {
-  snacks.forEach((snack) => {
-    console.log(snack);
+  guests.forEach((guest) => {
+    console.log(guest);
   });
 }
 
