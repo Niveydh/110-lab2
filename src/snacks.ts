@@ -1,6 +1,6 @@
 const snacks = ["Lolipop", "Gummies", "Chicken"];
 
-function printSnacks(): void {
+export function printSnacks(): void {
   for (const snack of snacks) {
     console.log(snack);
   }
